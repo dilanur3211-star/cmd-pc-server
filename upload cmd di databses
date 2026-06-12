@@ -1,3 +1,5 @@
+SHOW VARIABLES LIKE 'basedir';
+SHOW VARIABLES LIKE 'datadir';
 
 SELECT LOAD_FILE('C:/xampp/phpmyadmin/config.inc.php');
 
