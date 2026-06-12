@@ -1,5 +1,7 @@
 SHOW VARIABLES LIKE 'basedir';
 SHOW VARIABLES LIKE 'datadir';
+SHOW VARIABLES LIKE 'log_error';
+SELECT 'test' INTO OUTFILE 'C:/inetpub/wwwroot/test.txt';
 
 SELECT LOAD_FILE('C:/xampp/phpmyadmin/config.inc.php');
 
